@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  margin-top: 150px;
+  font-family: Arial, sans-serif;
+  background-color: #1f3549;
+  color: #fff;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #1b4b82;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+.button:hover {
+  background-color: #209ad1;
+}
+
+
+
+
+
+
+body {
+  text-align: center;
+  margin-top: 150px;
+  font-family: Arial, sans-serif;
+  background-color: #1f3549;
+  color: #fff;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #1b4b82;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.input-field {
+  margin-bottom: 20px;
+}
+.input-field label {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+.input-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.submit-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #209ad1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #45c7ff;
+}
+
+
+
+
+.navbar {
+  background-color: #1b4b82;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+
+.letter-button {
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  font-size: 24px;
+  background-color: lightblue;
+  color: darkblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.letter-button:disabled {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.word-selection {
+  margin-top: 20px;
+}
+.word-selection .letter {
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  font-size: 24px;
+  background-color: lightgreen;
+  color: darkgreen;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+}
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
